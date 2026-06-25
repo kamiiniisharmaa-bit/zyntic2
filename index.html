@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Zyntic | Modern Essentials</title>
+  <title> barca | Modern Essentials</title>
   <!-- Google Fonts & simple reset -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
   <style>
@@ -434,7 +434,7 @@ gtag('config', 'G-NTV0NLN2X5');
 <div class="site-header">
   <div class="container header-inner">
     <div class="logo-area">
-      <span class="brand-name">ZYNTIC</span>
+      <span class="brand-name"> barca</span>
       <span class="brand-short">Z·Y·N</span>
     </div>
     <div class="nav-links">
@@ -453,7 +453,7 @@ gtag('config', 'G-NTV0NLN2X5');
   <div class="hero">
     <div class="hero-text">
       <h1>Everyday objects,<br>elevated.</h1>
-      <p>Minimal design, timeless quality. Discover the new standard for modern living — curated essentials from ZYNTIC.</p>
+      <p>Minimal design, timeless quality. Discover the new standard for modern living — curated essentials from  barca.</p>
       <button class="btn-primary" id="shopNowBtn">Shop collection →</button>
     </div>
     <div class="hero-img">
@@ -468,7 +468,7 @@ gtag('config', 'G-NTV0NLN2X5');
 
 <footer>
   <div class="container">
-    <p>© 2025 ZYNTIC — honest materials, honest design.</p>
+    <p>© 2025  barca — honest materials, honest design.</p>
     <p style="margin-top: 10px; font-size: 0.8rem;">✦ Free shipping on all orders ✦</p>
   </div>
 </footer>
@@ -549,11 +549,11 @@ gtag('config', 'G-NTV0NLN2X5');
 
   // Save cart to localStorage (optional) but not mandatory for session
   function saveCart() {
-    localStorage.setItem('zyntic_cart', JSON.stringify(cart));
+    localStorage.setItem(' barca_cart', JSON.stringify(cart));
   }
 
   function loadCart() {
-    const stored = localStorage.getItem('zyntic_cart');
+    const stored = localStorage.getItem(' barca_cart');
     if(stored) {
       try {
         let parsed = JSON.parse(stored);
@@ -632,7 +632,7 @@ gtag('config', 'G-NTV0NLN2X5');
       const prod = item.product;
       itemsHtml += `
         <div class="cart-item">
-          <img class="cart-item-img" src="${prod.image}" alt="${prod.alt}" loading="lazy" onerror="this.src='https://placehold.co/400x400?text=ZYNTIC+Essentials'">
+          <img class="cart-item-img" src="${prod.image}" alt="${prod.alt}" loading="lazy" onerror="this.src='https://placehold.co/400x400?text= barca+Essentials'">
           <div class="cart-item-details">
             <div class="cart-item-title">${escapeHtml(prod.name)}</div>
             <div class="cart-item-price">$${prod.price.toFixed(2)}</div>
@@ -747,7 +747,7 @@ gtag('config', 'G-NTV0NLN2X5');
       if(cart.length === 0) {
         alert("Your cart is empty — add some minimalist goods first.");
       } else {
-        alert(`✨ Thank you for exploring ZYNTIC! ✨\nTotal: $${computeTotal().toFixed(2)}\nThis is a demo experience. All images are working properly.`);
+        alert(`✨ Thank you for exploring  barca! ✨\nTotal: $${computeTotal().toFixed(2)}\nThis is a demo experience. All images are working properly.`);
         // optional: do not reset cart, but just message.
       }
     });
